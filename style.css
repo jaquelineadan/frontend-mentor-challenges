@@ -1,0 +1,58 @@
+body { margin: 0; padding: 0; }
+
+.container {
+  background-color: hsl(233, 47%, 7%);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  background-color: hsl(244, 38%, 16%);
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+}
+
+.card-content { margin: 70px; }
+
+.title {
+  color: white;
+  margin-top: 0;
+}
+
+.insights { color: hsl(277, 64%, 61%); }
+
+.main-paragraph {
+  font-size: 12.5px;
+  letter-spacing: 0.4px;
+  line-height: 23px;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.card-img {
+  position: relative;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  border-radius: 0 10px 10px 0;
+}
+
+.img-color {
+  background: hsl(277, 64%, 61%);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  opacity: 0.6;
+  border-radius: 0 10px 10px 0;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+
+.attribution a { color: hsl(228, 45%, 44%); }
