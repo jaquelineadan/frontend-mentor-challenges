@@ -57,6 +57,17 @@ body { margin: 0; padding: 0; }
 
 }
 
-.attribution { font-size: 11px; text-align: center; }
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: white; 
+  font-family: 'Inter', sans-serif;
+  margin-bottom: 20px;
+}
 
-.attribution a { color: hsl(228, 45%, 44%); }.attribution a { color: hsl(277, 64%, 61%); text-decoration: none;}
+.attribution p {
+  margin-bottom: 4px;
+  margin-top: 0;
+}
+
+.attribution a { color: hsl(277, 64%, 61%); text-decoration: none;}
