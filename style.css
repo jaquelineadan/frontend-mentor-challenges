@@ -33,6 +33,7 @@ body { margin: 0; padding: 0; }
 .insights { color: hsl(277, 64%, 61%); }
 
 .main-paragraph {
+  width: 340px;
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 12.5px;
@@ -49,7 +50,6 @@ body { margin: 0; padding: 0; }
 
 .stats {  
   display: flex;
-  flex-direction: row;
 }
 
 .stats-item {
@@ -89,3 +89,43 @@ body { margin: 0; padding: 0; }
 }
 
 .attribution a { color: hsl(277, 64%, 61%); text-decoration: none;}
+
+@media screen and (max-width: 480px) {
+  .container {
+    height: auto;
+  }
+
+  .card {
+    flex-direction: column-reverse;
+    width: 90%;
+    margin: 20px 0;
+  }
+
+  .card-content {
+    text-align: center;
+    margin: 30px;
+  }
+
+  .title {
+    width: auto;
+  }
+
+  .main-paragraph {
+    width: auto;
+    font-size: 17px;
+  }
+
+  .card-img {
+    height: 300px;
+    border-radius: 10px 10px 0 0;
+    background-size: cover;
+  }
+  
+  .stats {
+    flex-direction: column;
+  }
+
+  .stats-item {
+    margin-right: 0;
+  }
+}
